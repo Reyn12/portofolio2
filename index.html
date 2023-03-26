@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muh Renaldi</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/myPicture.jpg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/myPicture.jpg"
+              alt="Isma'il Firman"
+              width="80"
+              style="border-radius: 20px"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Isma'il Firman" style="font-weight: bold">
+              Muhammad Renaldi M
+            </h1>
+
+            <p class="title" style="margin-bottom: 10px">WEB DEVELOPER</p>
+            <p class="title">UI UX Designer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:ismailfirman1501@gmail.com" class="contact-link"
+                  >muhammadrenaldi687@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+6281326263055" class="contact-link"
+                  >+(62)813-1967-8220</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">May 20, 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Tangerang, Indonesia</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Certificate</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am a Front End Developer and UI/UX designer with passion for
+              creating an interactive, useful, and delightful user experience.
+            </p>
+
+            <p>
+              "Design doesn't need to be delightful for it to work, but that's
+              like saying food doesn't need to be tasty to keep us alive." —
+              Frank Chimero
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile development</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - be creative
+        -->
+
+          <section class="be creative">
+            <h3 class="h3 testimonials-title">Be Creative</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/time.png"
+                      alt="On time"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    On time
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      All i want to have client satisfaction & this is my aim
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/clean.png"
+                      alt="Clean work"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Clean work
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      All i want to have client satisfaction & this is my aim
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/client.png"
+                      alt="Client satisfaction"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Client satisfaction
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      All i want to have client satisfaction & this is my aim
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - be creative modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/logo.png"
+                    alt="On time"
+                    width="50"
+                    data-modal-img
+                  />
+                </figure>
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>On time</h4>
+
+                <div data-modal-text>
+                  <p>All i want to have client satisfaction & this is my aim</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Universitas Komputer Indonesia
+                </h4>
+
+                <span>2022 — Present</span>
+
+                <p class="timeline-text">Informatics Engineering</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Rakamin Academy</h4>
+
+                <span>Des - Jan || 2022 - 2023</span>
+
+                <p class="timeline-text">
+                  Short bootcamp at Web Development, obtained 6 certifcates
+                  related to Front End Developer through the Racamin Academy and
+                  Working on and completing the Capstone project Thriftee (an
+                  e‑commerce application for buying and selling used clothes)
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  SMA NEGERI 13 KABUPATEN TANGERANG
+                </h4>
+
+                <span>2018 — 2021</span>
+
+                <p class="timeline-text">
+                  Faculty of Mathematics and Natural Science (MIPA)
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  PT Bintang Sriwijaya Service
+                </h4>
+
+                <span>March - July 2022</span>
+
+                <p class="timeline-text">
+                  Create an interactive web company profile to attract
+                  applicants through the website within 1 day, Create a company
+                  cash journal database according to applicable rules, Awarding
+                  company directors by cooperating with building 2 internal
+                  software
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">CORE iNITIATIVE</h4>
+
+                <span>Jan - Feb 2023</span>
+
+                <p class="timeline-text">
+                  Thriftee is an application for buying and selling used clothes
+                  There are 6 members, 2 Machine Learning, 2 backend, and 2
+                  frontend. I took part in the creation of the Thriftee android
+                  application frontend and here is the Thriftee project
+                  repository link https://github.com/rofqirapsanjani/
+                  frontend‑bangkit.git
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience Organization</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Kamayasa Organization</h4>
+
+                <span>2022 — Present</span>
+
+                <p class="timeline-text">Staff Kab Tangerang</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Himpunan Mahasiswa Profesi Teknik Elektro FT UNNES 2021
+                </h4>
+
+                <span>2021</span>
+
+                <p class="timeline-text">
+                  Staff Ahli Departemen Teknologi dan Komunikasi
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Himpunan Mahasiswa Profesi Teknik Elektro FT UNNES 2020
+                </h4>
+
+                <span>2020</span>
+
+                <p class="timeline-text">
+                  Staff Departemen Teknologi dan Komunikasi
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WEB Design</h5>
+                  <data value="95">95%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UI/UX design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React Js</h5>
+                  <data value="87">87%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 87%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Vue Js</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Mobile Development</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Team Work</h5>
+                  <data value="99">99%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 99%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <h1></h1>
+
+          <section class="language">
+            <h3 class="h3 languages-title">My languages</h3>
+
+            <ul class="languages-list content-card">
+              <li class="languages-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML CSS</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="language-progress-bg">
+                  <div class="language-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="languages-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">PHP</h5>
+                  <data value="87">87%</data>
+                </div>
+
+                <div class="language-progress-bg">
+                  <div class="language-progress-fill" style="width: 87%"></div>
+                </div>
+              </li>
+
+              <li class="languages-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="language-progress-bg">
+                  <div class="language-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="languages-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Javascript</h5>
+                  <data value="93">93%</data>
+                </div>
+
+                <div class="language-progress-bg">
+                  <div class="language-progress-fill" style="width: 93%"></div>
+                </div>
+              </li>
+
+              <li class="languages-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Java</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="language-progress-bg">
+                  <div class="language-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>UI/UX design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Mobile development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>UI/UX design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Mobile development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://drive.google.com/file/d/15OuCLv6RtgKkX-qYyuMZ8grhlTA71gHX/view?usp=sharing"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-10.png"
+                      alt="train access"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Train Access</h3>
+
+                  <p class="project-category">UI/UX design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://drive.google.com/file/d/11Fgsa5o0jyflPDgMbXw2OjfPpSJS6wIW/view?usp=sharing"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="total sport"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Total Sport</h3>
+
+                  <p class="project-category">UI/UX design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.lapakgrafi.my.id">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="lapakgrafi"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Lapakgrafi</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="ui/ux design"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1yEaInNI8wKTd0D60ZJueTfUIdpU9TYBc/view?usp=sharing"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="tiketin aja"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Tiketin Aja</h3>
+
+                  <p class="project-category">UI/UX design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile development"
+              >
+                <a href="https://github.com/elfirman/GithubUser3.git">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="github app"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Github App</h3>
+
+                  <p class="project-category">Mobile development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile development"
+              >
+                <a
+                  href="https://www.figma.com/proto/sC9wAkLFnYAzFy5bK4JPzl/Wireframe-Tiket-Aja?page-id=544%3A565&node-id=544%3A637&viewport=302%2C349%2C0.27&scaling=scale-down&starting-point-node-id=544%3A637"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.png"
+                      alt="tiketin aja"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Tiketin Aja</h3>
+
+                  <p class="project-category">Mobile development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile development"
+              >
+                <a href="https://github.com/elfirman/StoryApp2.git">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.png"
+                      alt="story app"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Story App</h3>
+
+                  <p class="project-category">Mobile development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile development"
+              >
+                <a
+                  href="https://github.com/rofiqirapsanjani/frontend-bangkit.git"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="thriftee"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Thriftee</h3>
+
+                  <p class="project-category">Mobile development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.lapakgrafi.my.id">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="lapakgrafi"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Lapakgrafi v2</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CERTIFICATE
+      -->
+
+        <article class="blog" data-page="certificate">
+          <header>
+            <h2 class="h2 article-title">Certificate</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/specialization/certificate/45L4RENWDVEZ"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certificationUX-8.png"
+                      alt="Desain UX Google Specialization"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Desain UX Google Specialization
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/9T4AR3A6KKGD"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certificationUX-7.png"
+                      alt="Mendesain Pengalaman Pengguna untuk Kebaikan Sosial & Bersiap untuk Pekerjaan"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Mendesain Pengalaman Pengguna untuk Kebaikan Sosial &
+                      Bersiap untuk Pekerjaan
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/UJGZD6BVJE5A"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certificationUX-6.png"
+                      alt="Mendesain Web yang Responsif di Adobe XD"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Mendesain Web yang Responsif di Adobe XD
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/2293FSHM6GJM"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certificationUX-5.png"
+                      alt="Membuat Desain dan Purwarupa High-Fidelity di Figma"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Membuat Desain dan Purwarupa High-Fidelity di Figma
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/M2BKJ2E3CHV6"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certificationUX-4.png"
+                      alt="Melakukan Riset UX dan Uji coba Konsep Awal"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Melakukan Riset UX dan Uji coba Konsep Awal
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/RVFNFQSSU85P"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certificationUX-3.png"
+                      alt="Membuat Wireframe dan Purwarupa Low-Fidelity"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Membuat Wireframe dan Purwarupa Low-Fidelity
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/EQ8Y65YXTQ9R"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certificationUX-2.png"
+                      alt="Mulailah Proses Desain UX: Berempati, Mendefinisikan, dan Menciptakan Ide (ideate)"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Mulailah Proses Desain UX: Berempati, Mendefinisikan, dan
+                      Menciptakan Ide (ideate)
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.coursera.org/account/accomplishments/certificate/YES9CNDYJ9FY"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certificationUX-1.png"
+                      alt="Dasar-dasar Desain Pengalaman Pengguna (User Experience, UX)"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Dasar-dasar Desain Pengalaman Pengguna (User Experience,
+                      UX)
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="./assets/images/BangkitCertificate.jpg">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/BangkitCertificate.jpg"
+                      alt="Bangkit Academy 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mobile development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb - Jun 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Bangkit Academy 2022</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="./assets/images/KM4certificate.png">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/KM4certificate.png"
+                      alt="KM4 Certificate"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Teacher Assistant</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jul - Dec 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Kampus Mengajar 4</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/2VX3YLOQ4PYQ">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-9.png"
+                      alt="Belajar Dasar-Dasar DevOps"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">DevOps</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 18, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Belajar Dasar-Dasar DevOps
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/JMZVN0VMQPN9">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-10.png"
+                      alt="Belajar Jaringan Komputer Untuk Pemula"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">DevOps</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 19, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Belajar Jaringan Komputer Untuk Pemula
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/53XE00LERXRN">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-1.png"
+                      alt="Belajar Pengembangan Aplikasi Android Intermediate"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mobile development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May 26, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Belajar Pengembangan Aplikasi Android Intermediate
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/07Z6RRL8RPQR">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-2.png"
+                      alt="Belajar Dasar UX Design"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">UX Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May 26, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Belajar Dasar UX Design</h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/QLZ91Y902P5D">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-3.png"
+                      alt="Belajar Dasar Git dengan Github"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Git Github</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 13, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Belajar Dasar Git dengan Github
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/N9ZOE103DXG5">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-4.png"
+                      alt="Pengenalan ke Logika Pemrograman (Programming Logic 101)"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Programming Logic</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 13, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Pengenalan ke Logika Pemrograman (Programming Logic 101)
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/1RXYYRGLQXVM">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-5.png"
+                      alt="Memulai Dasar Pemrograman untuk Menjadi Pengembang Software"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mobile development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 14, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Memulai Dasar Pemrograman untuk Menjadi Pengembang
+                      Software
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/81P229ENYPOY">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-6.png"
+                      alt="Belajar Prinsip Pemrograman SOLID"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mobile development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Apr 05, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Belajar Prinsip Pemrograman SOLID
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/QLZ91MY0DP5D">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-7.png"
+                      alt="Memulai Pemrograman dengan Kotlin"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mobile development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 24, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Memulai Pemrograman dengan Kotlin
+                    </h3>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://www.dicoding.com/certificates/1OP86YV32XQK">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/certification-8.png"
+                      alt="Belajar Fundamental Aplikasi Android"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Mobile development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Apr 16, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Belajar Fundamental Aplikasi Android
+                    </h3>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Semarang&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formspree.io/f/xknavpjo"
+              method="POST"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
